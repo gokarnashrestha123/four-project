@@ -47,7 +47,7 @@ const Category = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-7 lg:gap-8 relative z-10">
           {data.map((item, index) => {
             // Random vertical offset for each card (can be positive or negative)
-            const offset = index % 2 === 0 ? -30 : 30; // example in px, adjust as needed
+            const offset = index % 2 === 0 ? -30 : 30; 
             return (
               <div
                 key={index}
@@ -58,7 +58,7 @@ const Category = () => {
                 style={{
                   height: "550px",
                   width: "auto",
-                  transform: `translateY(${offset}px)`, // vertical offset
+                  transform: `translateY(${offset}px)`, 
                 }}
               >
                 {/* Optional Gradient Overlay */}

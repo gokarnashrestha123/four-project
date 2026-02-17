@@ -55,7 +55,7 @@ const NewsSection = () => {
             Interesting Insight from us
           </h1>
 
-          <p className="text-lg">
+          <p className="text-lg font-normal leading-6">
             You can determine various up to date skills based on the needs of
             the era with professional mentors that we have curated strictly
           </p>
