@@ -74,7 +74,7 @@ const Pricing = () => {
             <ul className="space-y-3 mb-8">
               {item.description.map((feature, i) => (
                 <li key={i} className="flex items-center gap-2">
-                  ✅ <span className="text-sm">{feature}</span>
+                   <span className="text-sm">{feature}</span>
                 </li>
               ))}
             </ul>

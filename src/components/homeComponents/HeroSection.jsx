@@ -131,7 +131,10 @@ const HeroSection = () => {
             </svg>
           </div>
           {/* first box */}
-          <div className="absolute  max-w-89 bg-white text-[#322B5E] flex items-center gap-3 p-1 md:p-2 lg:p-3 rotate-[-4deg] rounded-2xl left-[2%] lg:left-[5%] top-[5%] sm:top-[11%] md:top-[10%] ">
+          <div
+            className="absolute  max-w-89 bg-white text-[#322B5E] flex items-center gap-3 p-1 md:p-2 lg:p-3 rotate-[-4deg] rounded-2xl left-[2%] lg:left-[5%] top-[5%] sm:top-[11%] md:top-[10%]  transition-all duration-300 ease-in-out
+             hover:scale-110 hover:shadow-2xl"
+          >
             <IoMdHappy size={20} className="sm:size-6 md:size-6.5" />
 
             <h2 className="font-bold text-xs sm:text-lg lg:text-xl leading-6 sm:leading-7 md:leading-8">
@@ -214,8 +217,8 @@ const HeroSection = () => {
 
       {/* Bottom Wave */}
       <svg
-        className="absolute bottom-0 left-0"
-        viewBox="0 0 1440 169"
+        className="absolute -bottom-6 left-0 w-full animate-wave-updown"
+        viewBox="0 0 1440 204"
         preserveAspectRatio="none"
       >
         <path
