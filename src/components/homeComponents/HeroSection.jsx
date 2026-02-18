@@ -23,7 +23,7 @@ const HeroSection = () => {
   return (
     <section className="relative w-full bg-[#69609F] overflow-hidden">
       <Navbar />
-      <SectionContainer className="flex flex-col-reverse md:flex-row items-center justify-between text-white  py-20">
+      <SectionContainer className="flex flex-col-reverse md:flex-row items-center justify-between text-white  py-15  md:mb-7">
         {/* LEFT SIDE */}
         <div className="flex flex-col gap-6 md:gap-10 w-full md:w-1/2 text-center md:text-left">
           <div className="space-y-4">
@@ -195,7 +195,7 @@ const HeroSection = () => {
           {/* third cart */}
           <div
             className="absolute top-[75%] sm:top-[70%] md:top-[80%] lg:top-[75%] left-[20%] md:left-[50%] lg:left-[50%] w-[85%] sm:w-auto max-w-75 flex flex-col rotate-[1.5deg] 
-             
+
             transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
              hover:scale-[1.06]
              hover:-translate-y-2
@@ -227,19 +227,21 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
-      </SectionContainer>
 
-      {/* Bottom Wave */}
-      <svg
-        className="absolute -bottom-6 left-0 w-full animate-wave-updown"
-        viewBox="0 0 1440 204"
-        preserveAspectRatio="none"
-      >
-        <path
-          d="M29.7061 234.288C-1.18227 220.173 -14.7753 183.687 -0.652101 152.802C13.4687 121.922 49.9488 108.336 80.8285 122.457L173.952 165.041C204.804 179.149 241.25 165.575 255.358 134.724C269.466 103.872 305.913 90.2988 336.764 104.407L429.764 146.934C460.648 161.056 497.132 147.469 511.255 116.585C525.377 85.702 561.862 72.1145 592.745 86.237L685.745 128.764C716.596 142.872 753.043 129.299 767.151 98.4471C781.259 67.5956 817.705 54.0222 848.557 68.1301L947.208 113.242C975.593 126.222 1009.18 115.048 1024.14 87.6512C1038.27 61.764 1069.24 50.1438 1096.91 60.346L1198.06 97.6416C1229.35 109.174 1264.23 94.6579 1278.09 64.3387C1292.74 32.3195 1330.56 18.2323 1362.58 32.8742L1436.85 66.8359C1476.99 85.192 1494.68 132.591 1476.38 172.759L1237.08 697.989C1218.75 738.228 1171.25 755.962 1131.03 737.582L29.7061 234.288Z"
-          fill="#E2DFF6"
-        />
-      </svg>
+        {/* Bottom Wave */}
+        <div className=" absolute -bottom-4 left-0 w-full">
+          <svg 
+            className=" hidden md:block animate-wave-updown "
+            viewBox="0 0 1440 204"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M29.7061 234.288C-1.18227 220.173 -14.7753 183.687 -0.652101 152.802C13.4687 121.922 49.9488 108.336 80.8285 122.457L173.952 165.041C204.804 179.149 241.25 165.575 255.358 134.724C269.466 103.872 305.913 90.2988 336.764 104.407L429.764 146.934C460.648 161.056 497.132 147.469 511.255 116.585C525.377 85.702 561.862 72.1145 592.745 86.237L685.745 128.764C716.596 142.872 753.043 129.299 767.151 98.4471C781.259 67.5956 817.705 54.0222 848.557 68.1301L947.208 113.242C975.593 126.222 1009.18 115.048 1024.14 87.6512C1038.27 61.764 1069.24 50.1438 1096.91 60.346L1198.06 97.6416C1229.35 109.174 1264.23 94.6579 1278.09 64.3387C1292.74 32.3195 1330.56 18.2323 1362.58 32.8742L1436.85 66.8359C1476.99 85.192 1494.68 132.591 1476.38 172.759L1237.08 697.989C1218.75 738.228 1171.25 755.962 1131.03 737.582L29.7061 234.288Z"
+              fill="#E2DFF6"
+            />
+          </svg>
+        </div>
+      </SectionContainer>
     </section>
   );
 };

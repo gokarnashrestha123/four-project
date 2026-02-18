@@ -40,7 +40,7 @@ const Category = () => {
   
 
   return (
-    <div className="relative min-h-screen py-15 md:py-20">
+    <div className="relative min-h-screen py-15 md:py-20 ">
       <BackgroundSVGs />
 
       <SectionContainer>

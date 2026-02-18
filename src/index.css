@@ -65,10 +65,7 @@ body {
   animation: newsMarquee 25s linear infinite;
 }
 
-/* .shape {
-  background-color: #C5BFED;
-  clip-path: path("M0 20 L 20 20 L20 0 L60 0 L60 20 L100 20 L100 80 L80 80 L80 100 L40 100 L40 95 L0 95 Z");
-} */
+
 
 
 @keyframes waveFloatUpDown {
@@ -86,4 +83,9 @@ body {
 .animate-wave-updown {
   animation: waveFloatUpDown 6s ease-in-out infinite;
 }
+
+/* .shape {
+  background-color: #C5BFED;
+  clip-path: path("M0 20 L 20 20 L20 0 L60 0 L60 20 L100 20 L100 80 L80 80 L80 100 L40 100 L40 95 L0 95 Z");
+} */
 
