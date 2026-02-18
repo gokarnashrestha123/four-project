@@ -132,8 +132,12 @@ const HeroSection = () => {
           </div>
           {/* first box */}
           <div
-            className="absolute  max-w-89 bg-white text-[#322B5E] flex items-center gap-3 p-1 md:p-2 lg:p-3 rotate-[-4deg] rounded-2xl left-[2%] lg:left-[5%] top-[5%] sm:top-[11%] md:top-[10%]  transition-all duration-300 ease-in-out
-             hover:scale-110 hover:shadow-2xl"
+            className="absolute  max-w-89 bg-white text-[#322B5E] flex items-center gap-3 p-1 md:p-2 lg:p-3 rotate-[-4deg]  rounded-2xl left-[2%] lg:left-[5%] top-[5%] sm:top-[11%] md:top-[10%] 
+
+             transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+             hover:scale-[1.06]
+             hover:-translate-y-2
+             hover:shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
           >
             <IoMdHappy size={20} className="sm:size-6 md:size-6.5" />
 
@@ -144,9 +148,12 @@ const HeroSection = () => {
 
           {/* second box */}
           <div
-            className="
-    absolute top-[50%] sm:top-[55%] md:top-[55%] left-[0%] sm:left-[0%] md:left-[0%] w-[90%] sm:w-auto max-w-75
- bg-white py-1 md:py-3 px-1 md:px-4  flex gap-2 rounded-2xl rotate-[1.5deg] "
+            className="absolute top-[50%] sm:top-[55%] md:top-[55%] left-[0%] sm:left-[0%] md:left-[0%] w-[90%] sm:w-auto max-w-75 bg-white py-1 md:py-3 px-1 md:px-4  flex gap-2 rounded-2xl rotate-[1.5deg]
+            
+             transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+             hover:scale-[1.06]
+             hover:-translate-y-2
+             hover:shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
           >
             <div className="flex gap-3 sm:gap-4">
               <FaStar
@@ -186,7 +193,14 @@ const HeroSection = () => {
           </div>
 
           {/* third cart */}
-          <div className="absolute top-[75%] sm:top-[70%] md:top-[80%] lg:top-[75%] left-[20%] md:left-[50%] lg:left-[50%] w-[85%] sm:w-auto max-w-75 flex flex-col rotate-[1.5deg]">
+          <div
+            className="absolute top-[75%] sm:top-[70%] md:top-[80%] lg:top-[75%] left-[20%] md:left-[50%] lg:left-[50%] w-[85%] sm:w-auto max-w-75 flex flex-col rotate-[1.5deg] 
+             
+            transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]
+             hover:scale-[1.06]
+             hover:-translate-y-2
+             hover:shadow-[0_20px_40px_rgba(0,0,0,0.15)]"
+          >
             <div className="bg-white rounded-2xl lg:rounded-b-none rounded-t-2xl">
               <div className="flex gap-2 py-1 px-1 md:px-4">
                 <img
